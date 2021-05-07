@@ -101,8 +101,8 @@ require 'table_print'
 
 tp.set User, :id, :first_name, :last_name, :email, :age, "city.name", "city.zip_code", :description
 tp.set Tag, :id, :title
-tp.set Gossip, :id, :title, "author.first_name", "author.last_name", "tags", :content
-tp.set PrivateMessage, :id, "sender.first_name", "sender.last_name", "recipients", :content
+tp.set Gossip, :id, :title, "author.first_name", "author.last_name", "tags.title", :content
+tp.set PrivateMessage, :id, "sender.first_name", "sender.last_name", "recipients.first_name", "recipients.last_name", :content
 tp.set Comment, :id, "author.first_name", "author.last_name", "gossip.title", :content
 
 puts "#{users_array.length} users créés :\n"

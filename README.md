@@ -7,18 +7,19 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
 
-* Configuration
+* Rails version
 
-* Database creation
+Rails 5.2.3
 
 * Database initialization
 
-* How to run the test suite
+$ bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+...
 
-* Deployment instructions
+$ rails db:seed
 
-* ...
+
+
